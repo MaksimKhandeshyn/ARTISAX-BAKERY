@@ -10,21 +10,21 @@
     <title>Bakery</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Delivery</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Reviews</a></li>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Delivery</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Traditional Artisax Bakery</h1>
-        <p>
+      <section class="hero">
+        <h1 class="hero-title">Traditional Artisax Bakery</h1>
+        <p class="hero-info">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -32,117 +32,118 @@
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged.
         </p>
-        <button type="button">SHOP NOW</button>
+        <button type="button" class="hero-btn">SHOP NOW</button>
       </section>
 
-      <section>
-        <ul>
-          <li>
-            <article>
-              <p>$8.00(kg)</p>
-              <h4>American Cockie</h4>
-              <button type="button">BUY</button>
+      <section class="pastry-price">
+        <ul class="pastry-list">
+          <li class="pastry-item">
+            <article class="pastry-box">
+              <p class="price">$8.00(kg)</p>
+              <h4 class="name">American Cockie</h4>
+              <button type="button" class="btn-buy">BUY</button>
             </article>
           </li>
-          <li>
-            <article>
-              <p>$4.00</p>
-              <h4>Crushed with chockolate</h4>
-              <button type="button">BUY</button>
+          <li class="pastry-item">
+            <article class="pastry-box">
+              <p class="price">$4.00</p>
+              <h4 class="name">Crushed with chockolate</h4>
+              <button type="button" class="btn-buy">BUY</button>
             </article>
           </li>
-          <li>
-            <article>
-              <p>For price $4.00</p>
-              <h4>Blackberry pie</h4>
-              <button type="button">BUY</button>
+          <li class="pastry-item">
+            <article class="pastry-box">
+              <p class="price">For price $4.00</p>
+              <h4 class="name">Blackberry pie</h4>
+              <button type="button" class="btn-buy">BUY</button>
             </article>
           </li>
         </ul>
       </section>
 
-      <section>
-        <h2>Menu</h2>
-        <ul>
-          <li>
-            <img src="./images/menu/bread.png" alt="bread" />
-            <h3>Breads</h3>
-            <button type="button">Order</button>
+      <section class="menu">
+        <h2 class="menu-title">Menu</h2>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <img src="./images/menu/bread.png" alt="bread" class="menu-img"/>
+            <h3 class="order-title">Breads</h3>
+            <button type="button" class="order-btn">Order</button>
           </li>
-          <li>
-            <img src="./images/menu/pngegg-min.png" alt="loaf-egg" />
-            <img src="./images/menu/pngwing-min.png" alt="wing" />
-            <img src="./images/menu/klipartz-min-1.png" alt="klipartz" />
-            <h3>Bekary</h3>
-            <button type="button">Order</button>
+          <li class="menu-list">
+            <!--Вот тут не знаю по фоткам все классы одинокавые или разные, поставлю и то и то, потом удалю если не нужно будет-->
+            <img src="./images/menu/pngegg-min.png" alt="loaf-egg" class="menu-img loaf-egg"/>
+            <img src="./images/menu/pngwing-min.png" alt="wing" class="menu-img wing"/>
+            <img src="./images/menu/klipartz-min-1.png" alt="klipartz" class="menu klipartz"/>
+            <h3 class="order-title">Bekary</h3>
+            <button type="button" class="order-btn">Order</button>
           </li>
-          <li>
-            <img src="./images/menu/cakes.png" alt="capcakes" />
-            <img src="./images/menu/capcakes.png" alt="cake" />
-            <h3>Cakes & Capcakes</h3>
-            <button type="button">Order</button>
+          <li class="menu-list">
+            <img src="./images/menu/cakes.png" alt="capcakes" class="menu-img capcakes"/>
+            <img src="./images/menu/capcakes.png" alt="cake" class="menu-img cake"/>
+            <h3 class="order-title">Cakes & Capcakes</h3>
+            <button type="button" class="order-btn">Order</button>
           </li>
-          <li>
-            <img src="./images/menu/pretzels.png" alt="pretzels" />
-            <img src="./images/menu/cookies.png" alt="white-cookies" />
-            <h3>Coockies & Pretzels</h3>
-            <button type="button">Order</button>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Quality our bekary</h2>
-        <ul>
-          <li>
-            <article>
-              <img src="./images/menu/bread.png" alt="bread" width="355" />
-              <ol>
-                <li>Flour with fresh wheat</li>
-                <li>New drozzhi</li>
-                <li>Fresh eggs</li>
-                <li>Water from the well</li>
-              </ol>
-            </article>
-          </li>
-          <li>
-            <article>
-              <img src="./images/menu/cookies.png" alt="white-cookies" />
-              <ol>
-                <li>Flour with fresh wheat</li>
-                <li>New drozzhi</li>
-                <li>Fresh eggs</li>
-                <li>Water from the well</li>
-              </ol>
-            </article>
-          </li>
-          <li>
-            <article>
-              <img src="./images/menu/capcakes.png" alt="capcakes" />
-              <ol>
-                <li>Flour with fresh wheat</li>
-                <li>New drozzhi</li>
-                <li>Fresh eggs</li>
-                <li>Water from the well</li>
-              </ol>
-            </article>
+          <li class="menu-list">
+            <img src="./images/menu/pretzels.png" alt="pretzels" class="menu-img pretzels"/>
+            <img src="./images/menu/cookies.png" alt="white-cookies" class="menu-img white-cookies"/>
+            <h3 class="menu-title">Coockies & Pretzels</h3>
+            <button type="button" class="order-btn">Order</button>
           </li>
         </ul>
       </section>
 
-      <section>
-        <h2>Why TRADITIONALARTISAX BAKERY ?</h2>
-        <ul>
-          <li>Order at home</li>
-          <li>Fresh food</li>
-          <li>Speed Delivery 24 h</li>
+      <section class="quality-bakery">
+        <h2 class="quality-bakery-title">Quality our bekary</h2>
+        <ul class="quality-bakery-list">
+          <li class="quality-bakery-item">
+            <article class="quality-bakery-box">
+              <img src="./images/menu/bread.png" alt="bread" width="355" class="quality-bakery-img"/>
+              <ol class="recepi-list">
+                <li class="ingredient">Flour with fresh wheat</li>
+                <li class="ingredient">New drozzhi</li>
+                <li class="ingredient">Fresh eggs</li>
+                <li class="ingredient">Water from the well</li>
+              </ol>
+            </article>
+          </li>
+          <li class="quality-bakery-list">
+            <article class="quality-bakery-box">
+              <img src="./images/menu/cookies.png" alt="white-cookies" class="quality-bakery-img"/>
+              <ol class="recepi-list">
+                <li class="ingredient">Flour with fresh wheat</li>
+                <li class="ingredient">New drozzhi</li>
+                <li class="ingredient">Fresh eggs</li>
+                <li class="ingredient">Water from the well</li>
+              </ol>
+            </article>
+          </li>
+          <li class="quality-bakery-item">
+            <article class="quality-bakery-box">
+              <img src="./images/menu/capcakes.png" alt="capcakes" class="quality-bakery-img"/>
+              <ol class="recepi-list">
+                <li class="ingredient">Flour with fresh wheat</li>
+                <li class="ingredient">New drozzhi</li>
+                <li class="ingredient">Fresh eggs</li>
+                <li class="ingredient">Water from the well</li>
+              </ol>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="why-bakery">
+        <h2 class="why-bakery-title">Why TRADITIONALARTISAX BAKERY ?</h2>
+        <ul class="why-bakery-list">
+          <li class="why-bakery-item">Order at home</li>
+          <li class="why-bakery-item">Fresh food</li>
+          <li class="why-bakery-item">Speed Delivery 24 h</li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <h2>Where</h2>
-      <address>
+    <footer class="footer">
+      <h2 class="footer-title">Where</h2>
+      <address class="address">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.3482628047063!2d36.3198546!3d49.967327100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270b5fbd85989b%3A0xf3f48894884fb7ba!2z0KDQntCh0KIg0JTQstC-0YDQtdGGINCh0L_QvtGA0YLQsA!5e0!3m2!1sru!2sua!4v1695406782280!5m2!1sru!2sua"
           width="600"
@@ -151,39 +152,42 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          class="footer-address"
         ></iframe>
-        <h2>How</h2>
-        <ul>
-          <li><a href="tel:+380551231312">+38 055 123 13 12</a></li>
-          <li><a href="#">Tik tok.:@TR.Bekary</a></li>
-          <li><a href="#">Inst:@TR.Bekary</a></li>
+        <h2 class="footer-header">How</h2>
+        <ul class="footer-list">
+          <li class="footer-item"><a href="tel:+380551231312" class="footer-info">+38 055 123 13 12</a></li>
+          <li class="footer-item"><a href="#" class="footer-info">Tik tok.:@TR.Bekary</a></li>
+          <li class="footer-item"><a href="#" class="footer-info">Inst:@TR.Bekary</a></li>
         </ul>
       </address>
-      <h2>When</h2>
-      <time>with 8:30 to 20:30</time>
-      <footer>
-        <section>
-          <p>Traditional Artisax Bakery</p>
-          <p>We want be helthy</p>
-          <h2>About</h2>
-          <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">News & Blog</a></li>
+      <h2 class="footer-header">When</h2>
+      <time class="footer-time">with 8:30 to 20:30</time>
+      <!--назвал именно так потому что в этом футере больше информации о компмании-->
+      <footer class="footer-contact">
+        <section class="footer-section">
+          <p class="hero-title title-in-footer">Traditional Artisax Bakery</p>
+          <p class="footer-contact-subtitle">We want be helthy</p>
+          <!--добавил доп класс потому что в макете about имеет свойство text-align, а у других нет-->
+          <h2 class="info about">About</h2>
+          <ul class="info-list">
+            <li class="info-item"><a href="#" class="info-link">About us</a></li>
+            <li class="info-item"><a href="#" class="info-link">Features</a></li>
+            <li class="info-item"><a href="#" class="info-link">News & Blog</a></li>
           </ul>
-          <h2>Movement</h2>
-          <ul>
-            <li><a href="#">What Eatly</a></li>
-            <li><a href="#">Support Us</a></li>
+          <h2 class="info">Movement</h2>
+          <ul class="info-list">
+            <li class="info-item"><a href="#" class="info-link">What Eatly</a></li>
+            <li class="info-item"><a href="#" class="info-link">Support Us</a></li>
           </ul>
-          <h2>Company</h2>
-          <ul>
-            <li><a href="#">Why Eatly</a></li>
-            <li><a href="#">Capital</a></li>
-            <li><a href="#">Securaty</a></li>
+          <h2 class="info">Company</h2>
+          <ul class="info-list">
+            <li class="info-item"><a href="#">Why Eatly</a></li>
+            <li class="info-item"><a href="#">Capital</a></li>
+            <li class="info-title"><a href="#">Securaty</a></li>
           </ul>
         </section>
-        <p>&commat;2022 Eatly .All right riserved.</p>
+        <p class="copyright">&commat;2022 Eatly .All right riserved.</p>
       </footer>
     </footer>
   </body>
