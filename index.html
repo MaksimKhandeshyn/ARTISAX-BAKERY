@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;700;800;900&family=Italiana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&family=Italiana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Bakery</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Delivery</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+        <ul class="nav-list list">
+          <li class="nav-item"><a href="#" class="nav-link link">About us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link">Delivery</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link">Menu</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link">Contacts</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link">Reviews</a></li>
         </ul>
       </nav>
     </header>
@@ -36,7 +37,7 @@
       </section>
 
       <section class="pastry-price">
-        <ul class="pastry-list">
+        <ul class="pastry-list list">
           <li class="pastry-item">
             <article class="pastry-box">
               <p class="price">$8.00(kg)</p>
@@ -63,13 +64,13 @@
 
       <section class="menu">
         <h2 class="menu-title">Menu</h2>
-        <ul class="menu-list">
+        <ul class="menu-list list">
           <li class="menu-item">
             <img src="./images/menu/bread.png" alt="bread" class="menu-img"/>
             <h3 class="order-title">Breads</h3>
             <button type="button" class="order-btn">Order</button>
           </li>
-          <li class="menu-list">
+          <li class="menu-item">
             <!--Вот тут не знаю по фоткам все классы одинокавые или разные, поставлю и то и то, потом удалю если не нужно будет-->
             <img src="./images/menu/pngegg-min.png" alt="loaf-egg" class="loaf-egg"/>
             <img src="./images/menu/pngwing-min.png" alt="wing" class="wing"/>
@@ -77,13 +78,13 @@
             <h3 class="order-title">Bekary</h3>
             <button type="button" class="order-btn">Order</button>
           </li>
-          <li class="menu-list">
+          <li class="menu-item">
             <img src="./images/menu/cakes.png" alt="capcakes" class="capcakes"/>
             <img src="./images/menu/capcakes.png" alt="cake" class="cake"/>
             <h3 class="order-title">Cakes & Capcakes</h3>
             <button type="button" class="order-btn">Order</button>
           </li>
-          <li class="menu-list">
+          <li class="menu-item">
             <img src="./images/menu/pretzels.png" alt="pretzels" class="pretzels"/>
             <img src="./images/menu/cookies.png" alt="white-cookies" class="white-cookies"/>
             <h3 class="menu-title">Coockies & Pretzels</h3>
@@ -94,7 +95,7 @@
 
       <section class="quality-bakery">
         <h2 class="quality-bakery-title">Quality our bekary</h2>
-        <ul class="quality-bakery-list">
+        <ul class="quality-bakery-list list">
           <li class="quality-bakery-item">
             <article class="quality-bakery-box">
               <img src="./images/menu/bread.png" alt="bread" width="355" class="quality-bakery-img"/>
@@ -133,7 +134,7 @@
 
       <section class="why-bakery">
         <h2 class="why-bakery-title">Why TRADITIONALARTISAX BAKERY ?</h2>
-        <ul class="why-bakery-list">
+        <ul class="why-bakery-list list">
           <li class="why-bakery-item"><p>Order at home</p></li>
           <li class="why-bakery-item"><p>Fresh food</p></li>
           <li class="why-bakery-item"><p>Speed Delivery 24 h</p></li>
@@ -156,9 +157,9 @@
         ></iframe>
         <h3 class="footer-title">How</h3>
         <ul class="footer-list">
-          <li class="footer-item"><a href="tel:+380551231312" class="footer-link">+38 055 123 13 12</a></li>
-          <li class="footer-item"><a href="#" class="footer-link">Tik tok.:@TR.Bekary</a></li>
-          <li class="footer-item"><a href="#" class="footer-link">Inst:@TR.Bekary</a></li>
+          <li class="footer-item"><a href="tel:+380551231312" class="footer-link link">+38 055 123 13 12</a></li>
+          <li class="footer-item"><a href="#" class="footer-link link">Tik tok.:@TR.Bekary</a></li>
+          <li class="footer-item"><a href="#" class="footer-link link">Inst:@TR.Bekary</a></li>
         </ul>
       </address>
       <h3 class="footer-title">When</h3>
@@ -166,25 +167,25 @@
     </footer>
     <footer class="footer-contact">
       <section class="footer-section">
-        <p class="hero-title title-in-footer">Traditional Artisax Bakery</p>
-        <p class="footer-contact-subtitle">We want be helthy</p>
+        <p class="title-in-footer">Traditional Artisax Bakery</p>
+        <p class="footer-contact-subtitle">We want be healthy</p>
         <!--добавил доп класс потому что в макете about имеет свойство text-align, а у других нет-->
         <h3 class="footer-info-title">About</h3>
         <ul class="info-list">
-          <li class="info-item"><a href="#" class="info-link">About us</a></li>
-          <li class="info-item"><a href="#" class="info-link">Features</a></li>
-          <li class="info-item"><a href="#" class="info-link">News & Blog</a></li>
+          <li class="info-item"><a href="#" class="info-link link">About us</a></li>
+          <li class="info-item"><a href="#" class="info-link link">Features</a></li>
+          <li class="info-item"><a href="#" class="info-link link">News & Blog</a></li>
         </ul>
         <h3 class="footer-info-title">Movement</h3>
         <ul class="info-list">
-          <li class="info-item"><a href="#" class="info-link">What Eatly</a></li>
-          <li class="info-item"><a href="#" class="info-link">Support Us</a></li>
+          <li class="info-item"><a href="#" class="info-link link">What Eatly</a></li>
+          <li class="info-item"><a href="#" class="info-link link">Support Us</a></li>
         </ul>
         <h3 class="footer-info-title">Company</h3>
         <ul class="info-list">
-          <li class="info-item"><a href="#">Why Eatly</a></li>
-          <li class="info-item"><a href="#">Capital</a></li>
-          <li class="info-title"><a href="#">Securaty</a></li>
+          <li class="info-item"><a href="#" class="info-link link">Why Eatly</a></li>
+          <li class="info-item"><a href="#" class="info-link link">Capital</a></li>
+          <li class="info-title"><a href="#" class="info-link link">Securaty</a></li>
         </ul>
       </section>
       <p class="copyright">&commat;2022 Eatly .All right riserved.</p>

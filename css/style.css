@@ -1,5 +1,211 @@
-:root{
-    --accent-color: #B47B48;
-    --main-color: #fff;
-    --bg-cololr: #202023;
+:root {
+  --accent-color: #b47b48;
+  --main-color: #fff;
+  --bg-color: #202023;
+  --add-color: #ebad51;
+}
+body {
+  font-family: "Inter";
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.nav-link {
+  /*Ставлю на дефолтный пока не будет черный фон*/
+  /* color: #FFF; */
+  font-size: 24px;
+  font-weight: 200;
+  line-height: normal;
+}
+.hero-title {
+  /* color: #FFF; */
+  
+  font-size: 70px;
+  
+  font-weight: 200;
+  line-height: normal;
+}
+.hero-info {
+  /* color: #FFF; */
+  font-size: 21px;
+  font-weight: 300;
+  line-height: normal;
+}
+.hero-btn {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 17px;
+  padding: 16px 34px 7px;
+}
+/* .pastry-box {
+  background: var(--bg-color);
+} */
+.price {
+  /* color: #fff; */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.name-cookie {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu {
+  background: var(--bg-color);
+}
+.menu-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 100;
+  line-height: normal;
+}
+.menu-item {
+  border: 1px solid #fff;
+}
+.order-title {
+  color: #fff;
+  font-size: 25.92px;
+  font-weight: 800;
+  line-height: normal;
+}
+.order-btn {
+  color: #fff;
+  font-size: 25.92px;
+  font-weight: 800;
+  line-height: normal;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 17px;
+  padding: 5px 45px;
+}
+.quality-bakery {
+  /* color: #FFF; */
+  /*этот шрифт есть, и он подключен, но не приминяется, возможно браузер не поддерживает*/
+  font-family: Italiana;
+  font-size: 64px;
+}
+.ingredient {
+  /* color: #FFF; */
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+.why-bakery-title {
+  /* color: #D9D9D9; */
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+.why-bakery-item {
+  /* color: #FFF; */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer,
+.footer-contact {
+  background: var(--bg-color);
+}
+.footer-location-title {
+  color: #fff;
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-title {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-link {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+}
+.footer-time {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: normal;
+}
+.title-in-footer {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: normal;
+}
+.footer-contact-subtitle {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+}
+.footer-info-title {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}
+.info-link {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}
+.copyright {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: normal;
 }
