@@ -231,6 +231,9 @@ img {
 .how-contact {
   margin-left: 132px;
 }
+.footer {
+  padding-top: 66px;
+}
 .footer-list {
   display: flex;
   flex-direction: column;
@@ -264,36 +267,53 @@ img {
   font-weight: 200;
   line-height: normal;
 }
+.footer-contact {
+  padding-bottom: 44px;
+  padding-top: 112px;
+}
 .footer-contact-subtitle {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
   line-height: normal;
 }
-/* .footer-info {
+.footer-section {
   display: flex;
-} */
-/*Here was the last work*/
-.info-list {
+}
+
+.footer-info {
   display: flex;
-  flex-direction: wrap;
-  margin-right: 142px;
 }
 .footer-info-title {
   color: #fff;
   font-size: 24px;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 41px;
+}
+.info-list {
+  display: flex;
+}
+.info-list:first-child {
+  flex-direction: column;
+  margin-left: 77px;
+}
+.info-list{
+  margin-right: 142px;
 }
 .info-link {
   color: #fff;
   font-size: 24px;
   font-weight: 300;
   line-height: normal;
+  display: flex;
+  flex-wrap: wrap;
 }
 .copyright {
   color: #fff;
   font-size: 20px;
   font-weight: 100;
   line-height: normal;
+  margin-top: 86px;
+  text-align: center;
 }
